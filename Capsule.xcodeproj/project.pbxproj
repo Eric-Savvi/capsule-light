@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0000000000000000000041 /* CapsuleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000032 /* CapsuleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0000000000000000000043 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = CA0000000000000000000009 /* Project object */; proxyType = 1; remoteGlobalIDString = CA0000000000000000000033; remoteInfo = CapsuleWidgetExtension; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA0000000000000000000040 /* Embed Foundation Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (CA0000000000000000000041 /* CapsuleWidgetExtension.appex in Embed Foundation Extensions */); name = "Embed Foundation Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA0000000000000000000002 /* Capsule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capsule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0000000000000000000020 /* Capsule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Capsule.entitlements; sourceTree = "<group>"; };
+		CA0000000000000000000032 /* CapsuleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CapsuleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0000000000000000000044 /* CapsuleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapsuleWidget.entitlements; sourceTree = "<group>"; };
+		CA0000000000000000000045 /* CapsuleWidget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapsuleWidget-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA0000000000000000000001 /* Capsule */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Capsule; sourceTree = "<group>"; };
+		CA0000000000000000000030 /* Shared */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Shared; sourceTree = "<group>"; };
+		CA0000000000000000000031 /* CapsuleWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; path = CapsuleWidget; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0000000000000000000003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CA0000000000000000000035 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0000000000000000000004 = {isa = PBXGroup; children = (CA0000000000000000000001 /* Capsule */, CA0000000000000000000030 /* Shared */, CA0000000000000000000031 /* CapsuleWidget */, CA0000000000000000000020 /* Capsule.entitlements */, CA0000000000000000000044 /* CapsuleWidget.entitlements */, CA0000000000000000000045 /* CapsuleWidget-Info.plist */, CA0000000000000000000005 /* Products */); sourceTree = "<group>"; };
+		CA0000000000000000000005 /* Products */ = {isa = PBXGroup; children = (CA0000000000000000000002 /* Capsule.app */, CA0000000000000000000032 /* CapsuleWidgetExtension.appex */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0000000000000000000006 /* Capsule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0000000000000000000010 /* Build configuration list for PBXNativeTarget "Capsule" */;
+			buildPhases = (CA0000000000000000000007 /* Sources */, CA0000000000000000000003 /* Frameworks */, CA0000000000000000000008 /* Resources */, CA0000000000000000000040 /* Embed Foundation Extensions */);
+			buildRules = ();
+			dependencies = (CA0000000000000000000042 /* PBXTargetDependency */);
+			fileSystemSynchronizedGroups = (CA0000000000000000000001 /* Capsule */, CA0000000000000000000030 /* Shared */);
+			name = Capsule;
+			packageProductDependencies = ();
+			productName = Capsule;
+			productReference = CA0000000000000000000002 /* Capsule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0000000000000000000033 /* CapsuleWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0000000000000000000037 /* Build configuration list for PBXNativeTarget "CapsuleWidgetExtension" */;
+			buildPhases = (CA0000000000000000000034 /* Sources */, CA0000000000000000000035 /* Frameworks */, CA0000000000000000000036 /* Resources */);
+			buildRules = ();
+			dependencies = ();
+			fileSystemSynchronizedGroups = (CA0000000000000000000031 /* CapsuleWidget */, CA0000000000000000000030 /* Shared */);
+			name = CapsuleWidgetExtension;
+			packageProductDependencies = ();
+			productName = CapsuleWidgetExtension;
+			productReference = CA0000000000000000000032 /* CapsuleWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0000000000000000000009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {CA0000000000000000000006 = {CreatedOnToolsVersion = 26.0;}; CA0000000000000000000033 = {CreatedOnToolsVersion = 26.0;};};
+			};
+			buildConfigurationList = CA0000000000000000000011 /* Build configuration list for PBXProject "Capsule" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = CA0000000000000000000004;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA0000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (CA0000000000000000000006 /* Capsule */, CA0000000000000000000033 /* CapsuleWidgetExtension */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0000000000000000000008 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CA0000000000000000000036 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0000000000000000000007 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CA0000000000000000000034 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0000000000000000000042 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = CA0000000000000000000033 /* CapsuleWidgetExtension */; targetProxy = CA0000000000000000000043 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA0000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_ID_PREFIX = local.unofficial;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA0000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_ID_PREFIX = local.unofficial;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CA0000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Capsule.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Capsule Light";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_PREFIX).capsule-light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA0000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Capsule.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Capsule Light";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_PREFIX).capsule-light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA0000000000000000000038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CapsuleWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CapsuleWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Capsule Light";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_PREFIX).capsule-light.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA0000000000000000000039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CapsuleWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CapsuleWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Capsule Light";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_PREFIX).capsule-light.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0000000000000000000010 /* Build configuration list for PBXNativeTarget "Capsule" */ = {isa = XCConfigurationList; buildConfigurations = (CA0000000000000000000014 /* Debug */, CA0000000000000000000015 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CA0000000000000000000011 /* Build configuration list for PBXProject "Capsule" */ = {isa = XCConfigurationList; buildConfigurations = (CA0000000000000000000012 /* Debug */, CA0000000000000000000013 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CA0000000000000000000037 /* Build configuration list for PBXNativeTarget "CapsuleWidgetExtension" */ = {isa = XCConfigurationList; buildConfigurations = (CA0000000000000000000038 /* Debug */, CA0000000000000000000039 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0000000000000000000009 /* Project object */;
+}

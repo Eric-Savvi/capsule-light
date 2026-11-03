@@ -1,0 +1,26 @@
+{
+ "front": [
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff"
+ ],
+ "rear": [
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff",
+  "ffffff"
+ ],
+ "solid_brightness": 100,
+ "speed": 5,
+ "effect": 2,
+ "effect_brightness": 100
+}
